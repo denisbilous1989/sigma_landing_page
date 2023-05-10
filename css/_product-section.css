@@ -1,0 +1,83 @@
+.product-section > .container {
+  display: flex;
+  margin-bottom: 242px;
+  justify-content: space-between;
+  padding: 0px 15.3vw 0 16.45vw;
+}
+
+.person {
+  position: relative;
+  margin-right: 4.5vw;
+}
+
+.person__image > img {
+  border-radius: 18.1125px;
+}
+
+.person__card {
+  font-weight: var(--font-weight-400);
+  background: var(--white);
+  border-radius: 3.72971px;
+  position: absolute;
+  top: 64%;
+  left: -10%;
+  padding: 22px 3vw 30px 3vw;
+  text-align: center;
+  line-height: 1.58;
+}
+
+.person__card--title {
+  border-bottom: 0.75px solid var(--black);
+  margin-bottom: 13.7px;
+  font-weight: var(--font-weight-600);
+  font-size: calc(var(--base-font-size) - 5.5px);
+}
+
+.person__card--avatar {
+  margin-bottom: 10.5px;
+}
+
+.person__card--name {
+  font-size: calc(var(--base-font-size) - 8.07px);
+  margin-bottom: 20px;
+}
+
+.person__card--contents {
+  font-family: 'Georgia', Arial, Helvetica, sans-serif;
+  font-weight: var(--font-weight-700);
+  font-size: calc(var(--base-font-size) - 4px);
+  text-align: left;
+  margin-bottom: 15.93px;
+}
+
+.person__card--list {
+  padding-left: 15px;
+  text-align: left;
+  list-style-type: disc;
+  font-size: calc(var(--base-font-size) - 9.4px);
+}
+
+.person__card--list__item:first-child {
+  margin-bottom: 16px;
+}
+
+.product-section .content {
+  max-width: 30.4vw;
+}
+
+.content__product {
+  font-weight: var(--font-weight-600);
+  font-size: calc(var(--base-font-size) + 5px);
+  line-height: calc(39 / 25);
+  margin-bottom: 10px;
+}
+
+.product-section .content__title {
+  font-size: var(--big-font-size);
+  line-height: calc(79 / 50);
+  margin-bottom: 20px;
+}
+
+.product-section .content__text {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,27 @@
+:root {
+
+  /* Font-weight */
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-900: 900;
+
+  /* colors */
+  --main-green: #01996D;
+  --green-bg: #245852;
+  --dark-white: #E5E5E5;
+  --white: #FFFFFF;
+  --black: #000000;
+  --social-bg: #080809;
+  --dark-black: #484848;
+  --midle-black: #424242;
+  --light-black: #292929;
+  --light-grey: #D6D6D6;
+
+  /* font-size */
+  --base-font-size: 20px;
+  --big-font-size: 50px;
+  --base-line-height: 1.5;
+
+}

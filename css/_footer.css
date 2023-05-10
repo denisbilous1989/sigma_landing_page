@@ -1,0 +1,124 @@
+#footer {
+  color: var(--white);
+  font-weight: var(--font-weight-600);
+}
+
+#footer .green-bg {
+  margin: 0;
+}
+
+#footer .container {
+  padding: 95px 4.8vw 39px 12vw;
+  display: block;
+}
+
+.footer__title {
+  font-family: 'Avenir', Arial, Helvetica, sans-serif;
+  font-weight: var(--font-weight-900);
+  font-size: calc(var(--big-font-size) - 10px);
+  line-height: calc(55 / 40);
+  margin-bottom: 60px;
+}
+
+.footer__menu--item {
+  margin: 30px 0;
+}
+
+.footer__menu--item a {
+  position: relative;
+}
+
+.footer__menu--item a::after {
+  display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 4px;
+	background-color: var(--main-green);
+	content: "";
+	transition: all 0.3s ease-out;
+}
+
+.footer__menu--item a:hover::after {
+  width: 100%;
+}
+
+.footer__menu--item:first-child {
+  margin-top: 0;
+}
+
+.footer__menu--item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.social {
+  display: flex;
+  font-size: calc(var(--big-font-size) - 20px);
+  margin-right: 12.3vw;
+}
+
+.social__item {
+  margin: 0 2.6vw;
+}
+
+.icon-Facebook, 
+.icon-twiter,
+.icon-instagram {
+  padding: 20px 20px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--white);
+  color: var(--social-bg);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.icon-Facebook {
+  padding: 20px 30px;
+}
+
+.icon-Facebook:hover, 
+.icon-twiter:hover,
+.icon-instagram:hover {
+  transform: scale(1.1);
+  color: var(--main-green);
+}
+
+
+.icon-instagram {
+  color: var(--white);
+  background: conic-gradient(from 180deg at 50% 50%, #80A4CE 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+}
+
+.app {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: var(--base-font-size);
+  letter-spacing: 0.005em;
+  line-height: calc(25 / 20);
+  position: relative;
+}
+
+.app__title {
+  position: absolute;
+  top: -120%;
+  left: 10%;
+}
+
+.app__links a {
+  margin-right: 30px;
+  transition: all 0.3s ease-out;
+}
+
+.app__links a:hover {
+  transform: scale(1.1);
+}
+
+.app__links a ~ a {
+  margin-right: 0;
+}
